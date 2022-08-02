@@ -1,0 +1,25 @@
+body {
+  background-color: #a69cac;
+  text-align: center;
+}
+.game {
+  width: 100%;
+}
+.word {
+  justify-content: center;
+  display: flex;
+}
+.char {
+  height: 100px;
+  width: 100px;
+  border: 5px rgb(238, 238, 238) solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 6px;
+  border-radius: 15px;
+  box-shadow: 0 5px rgb(238, 238, 238);
+  font-size: 50px;
+  color: #ccc9dc;
+  font-family: "Sofia", sans-serif;
+}
