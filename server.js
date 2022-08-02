@@ -1,5 +1,5 @@
 const express = require("express");
-
+const port = process.env.PORT || 3000
 const app = express();
 
 const ourWord = "HELLO";
@@ -66,4 +66,4 @@ function occurrences(string, subString, allowOverlapping) {
 
 app.get("/check", (req, res) => {});
 app.use(express.static("public"));
-app.listen(3000, () => console.log("Server running on port " + 3000));
+app.listen(port, () => console.log("Server running on port " + 3000));
